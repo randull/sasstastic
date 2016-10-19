@@ -1,0 +1,67 @@
+name: Ztheme
+type: profile
+description: 'Stock Ztheme installation profile'
+distribution:
+  name: Ztheme
+
+core: 8.x
+version: '8.x-1.0'
+project: 'base'
+
+# Required modules
+dependencies:
+  - address
+  - admin_menu
+  - advanced_help
+  - backup_migrate
+  - better_exposed_filters
+  - better_formats
+  - block_class
+  - browsersync
+  - calendar
+  - colorbox
+  - content_access
+  - context
+  - ctools
+  - date
+  - devel
+  - disqus
+  - ds
+  - entity
+  - features
+  - feeds
+  - field_group
+  - file_entity
+  - flag
+  - flexslider
+  - fontyourface
+  - fpa
+  - ga_push
+  - google_analytics
+  - imce
+  - inline_entity_form
+  - job_scheduler
+  - libraries
+  - link
+  - linkit
+  - media
+  - menu_block
+  - menu_position
+  - message
+  - message_notify
+  - message_subscribe
+  - metatag
+  - oauth
+  - pathauto
+  - pathologic
+  - plupload
+  - prod_check
+  - rules
+  - security_review
+  - services
+  - shs
+  - special_menu_items
+  - system_stream_wrapper
+  - token
+  - views_data_export
+  - views_tree
