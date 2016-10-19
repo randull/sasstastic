@@ -2,7 +2,8 @@ name: Sasstastic
 type: profile
 description: 'Stock Sasstatic installation profile'
 core: 8.x
-
+distribution:
+  name: Sasstastic
 dependencies:
   - node
   - history
@@ -31,3 +32,6 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
+themes:
+  - bartik
+  - seven
