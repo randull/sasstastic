@@ -1,8 +1,33 @@
 name: Sasstastic
 type: profile
 description: 'Stock Sasstatic installation profile'
-distribution:
-  name: Sasstastic
-
 core: 8.x
-version: '8.x-1.0'
+
+dependencies:
+  - node
+  - history
+  - block
+  - block_content
+  - breakpoint
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - quickedit
+  - help
+  - image
+  - options
+  - path
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - editor
+  - ckeditor
