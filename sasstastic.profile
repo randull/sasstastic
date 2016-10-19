@@ -6,7 +6,7 @@
 
 // Add any custom code here like hook implementations.
 
-function ztheme_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
+function sasstastic_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
 
   // Set a default site name and email address.
   $form['site_information']['site_mail']['#default_value']= 'support@hackrobats.net';

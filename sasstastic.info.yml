@@ -1,12 +1,11 @@
-name: Ztheme
+name: Sasstastic
 type: profile
-description: 'Stock Ztheme installation profile'
+description: 'Stock Sasstatic installation profile'
 distribution:
-  name: Ztheme
+  name: Sasstastic
 
 core: 8.x
 version: '8.x-1.0'
-project: 'base'
 
 # Required modules
 dependencies:
