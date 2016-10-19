@@ -19,7 +19,7 @@ function sasstastic_form_install_configure_form_alter(&$form, FormStateInterface
   $form['admin_account']['account']['mail']['#default_value'] = 'maintenance@hackrobats.net';
 
   // Date/time settings
-  $form['regional_settings']['site_default_country']['#default_value'] = 'CA';
+  $form['regional_settings']['site_default_country']['#default_value'] = 'US';
   $form['regional_settings']['date_default_timezone']['#default_value'] = 'America/Vancouver';
 
 }
